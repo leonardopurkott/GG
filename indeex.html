@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Med • Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Tela de boas-vindas -->
+  <section id="welcome-screen" class="screen">
+    <div class="welcome-card">
+      <img src="logo.png" alt="Quick Med Logo" class="logo">
+      <h1 class="app-name">Quick Med</h1>
+      <p class="subtitle">Bem-vindo</p>
+      <div class="continue">
+        <div class="arrow-circle">↑</div>
+        <p>Clique para continuar</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tela de login -->
+  <section id="login-screen" class="screen hidden">
+    <div class="login-card">
+      <img src="logo.png" alt="Quick Med Logo" class="logo">
+      <h1 class="app-name">Quick Med</h1>
+      <p class="subtitle">Realize seu login</p>
+
+      <form>
+  <label for="email">Informe seu email:</label>
+  <input 
+    type="email" 
+    id="email" 
+    placeholder="exemplo@gmail.com" 
+    required
+  >
+
+  <label for="senha">Informe sua senha:</label>
+  <input 
+    type="password" 
+    id="senha" 
+    placeholder="************" 
+    required
+  >
+
+  <a href="#" class="forgot">Esqueci minha senha.</a>
+
+  <button type="submit" class="btn-primary">ACESSAR</button>
+
+  <p class="new-user">Novo por aqui?</p>
+  <button type="button" class="btn-secondary">CADASTRE-SE</button>
+</form>
